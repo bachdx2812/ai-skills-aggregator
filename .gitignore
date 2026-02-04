@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+target/
+*.dmg
+*.exe
+*.msi
+*.deb
+*.AppImage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Tauri
+app/src-tauri/target/
+
+# Cache
+.cache/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/

@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(planning)",
+      "Bash(node $HOME/.claude/scripts/set-active-plan.cjs:*)",
+      "Skill(plan:validate)",
+      "Bash(rustc:*)",
+      "Bash(cargo --version:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(cargo install:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(cargo tauri init:*)",
+      "Bash(OLDPWD=/Users/macos/apps/self/agent-skills-management/app:*)",
+      "Bash(pushd:*)",
+      "Bash(popd)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(/Users/macos/apps/self/agent-skills-management/app/node_modules/.bin/tailwindcss:*)",
+      "Bash(npm run:*)",
+      "Bash(cargo check:*)",
+      "Bash(cargo update:*)",
+      "Bash(npm list:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(pkill:*)",
+      "Bash(open:*)",
+      "Bash(/opt/homebrew/bin/npm run tauri build)",
+      "Bash(npx tauri build)",
+      "Bash(/Users/macos/apps/self/agent-skills-management/app/node_modules/.bin/tauri build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(bash -c \"cd /Users/macos/apps/self/agent-skills-management/app && npx tsc:*)",
+      "Bash(bash -c \"cd /Users/macos/apps/self/agent-skills-management/app && npm install -D vitest @vitest/ui @testing-library/react @testing-library/jest-dom jsdom\")",
+      "Bash(cat:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
